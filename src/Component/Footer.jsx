@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.webp";
+import Logo from "../assets/Logo.webp";
 import { FaXTwitter } from "react-icons/fa6";
 export default function Footer(){
     const Year = new Date().getFullYear();

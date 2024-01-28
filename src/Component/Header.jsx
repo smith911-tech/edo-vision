@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.webp";
+import Logo from "../assets/Logo.webp";
 import { Link } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { FaXmark } from "react-icons/fa6";
