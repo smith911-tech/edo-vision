@@ -1,11 +1,11 @@
 import HeroImage from "../assets/HeroImage.webp";
 import UnderHero from "../assets/UnderHero.webp";
-import Image1 from "../assets/Image1.webp";
-import Image2 from "../assets/Image2.webp";
-import Image3 from "../assets/Image3.webp";
-import Image4 from "../assets/Image4.webp";
-import Image5 from "../assets/Image5.webp";
-import Image6 from "../assets/Image6.webp";
+import Image1 from "../assets/image1.webp";
+import Image2 from "../assets/image2.webp";
+import Image3 from "../assets/image3.webp";
+import Image4 from "../assets/image4.webp";
+import Image5 from "../assets/image5.webp";
+import Image6 from "../assets/image6.webp";
 import Footer from "../Component/Footer";
 export default function Maincontent() {
   return (
