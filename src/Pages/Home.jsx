@@ -1,6 +1,11 @@
+import Header from "../Component/Header";
+import Maincontent from "../Home-component/Maincontent";
+
 export default function Home() {
   return (
-    <div>
-    </div>
+    <main>
+      <Header />
+      <Maincontent />
+    </main>
   )
 }
