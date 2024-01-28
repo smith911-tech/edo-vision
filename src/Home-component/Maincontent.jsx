@@ -6,6 +6,7 @@ import Image3 from "../assets/Image3.webp";
 import Image4 from "../assets/Image4.webp";
 import Image5 from "../assets/Image5.webp";
 import Image6 from "../assets/Image6.webp";
+import Footer from "../Component/Footer";
 export default function Maincontent() {
   return (
     <main className=" max-sm:pt-24 font-Nunito">
@@ -79,42 +80,42 @@ export default function Maincontent() {
         <h2 className="max-sm:text-2xl font-semibold max-md:text-3xl text-4xl my-5 text-center">
           Recent Photo Reports
         </h2>
-        <section className="max-lg:w-full w-[85%] pb-6 mx-auto  gap-4 max-lg:columns-1 columns-3 space-y-4 max-lg:gap-2 max-lg:space-y-4">
+        <section className="max-lg:w-full w-[85%] pb-6 mx-auto  gap-4 max-lg:columns-1 columns-3 space-y-4 max-lg:gap-2 ">
           <div className="h-[360px]">
             <img
               src={Image1}
               alt="img"
-              className=" h-[320px] object-cover rounded-[60px] w-full"
+              className=" h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
               An Edo vision medical volunteer giving out medical supplies
             </p>
           </div>
-          <div className="h-[530px]">
+          <div className="h-[530px] max-lg:h-[360px]">
             <img
               src={Image4}
               alt="img"
-              className=" h-[430px] object-cover rounded-[60px] w-full"
+              className="max-lg:h-[320px] h-[430px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
               Volunteers planting trees for the ‘Save ou planet’ campaign
             </p>
           </div>
-          <div className="h-[450px]">
+          <div className="h-[450px] max-lg:h-[360px]">
             <img
               src={Image2}
               alt="img"
-              className="h-[430px] object-cover rounded-[60px] w-full"
+              className="h-[430px] object-cover rounded-[60px] w-full object-top max-lg:h-[320px]"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
               An Edo vision medical volunteer giving out medical supplies
             </p>
           </div>
-          <div className="h-[450px] ">
+          <div className="h-[450px] max-lg:h-[360px]">
             <img
               src={Image5}
               alt="img"
-              className="h-[420px] object-cover rounded-[60px] w-full"
+              className="h-[420px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
               A student taking pottery classes
@@ -124,18 +125,18 @@ export default function Maincontent() {
             <img
               src={Image3}
               alt="img"
-              className="object-cover h-[320px] rounded-[60px] w-full"
+              className="object-cover h-[320px] rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
               Volunteers helping out in envionmental sanitation exercise
             </p>
           </div>
 
-          <div className="h-[530px] ">
+          <div className="h-[530px] max-lg:h-[360px]">
             <img
               src={Image6}
               alt="img"
-              className="h-[430px] object-cover rounded-[60px] w-full"
+              className="h-[430px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
               An Edo vision volunteer giving out lunch packages to local
@@ -144,6 +145,7 @@ export default function Maincontent() {
           </div>
         </section>
       </section>
+      <Footer />
     </main>
   );
 }
