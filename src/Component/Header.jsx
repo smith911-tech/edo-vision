@@ -13,7 +13,7 @@ export default function Header() {
     };
   }, [showMenu]);
   return (
-    <header className="flex max-sm:px-2 items-center justify-between bg-white px-5 max-sm:fixed w-full md:px-10 z-50">
+    <header className="flex max-sm:px-2 items-center justify-between bg-white px-5 max-sm:fixed w-full md:px-10 z-50 shadow top-0">
       <Link to="/">
         <img
           src={Logo}
@@ -36,7 +36,9 @@ export default function Header() {
         />
         <Link
           to="/about"
-          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 ${location === "/about" ? "border-[#CD0A0A]" : "border-transparent"}`}
+          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 ${
+            location === "/about" ? "border-[#CD0A0A]" : "border-transparent"
+          }`}
         >
           About
         </Link>
@@ -47,11 +49,11 @@ export default function Header() {
         <p className=" font-medium cursor-pointer text-[#000000ba]">
           Contact Us
         </p>
-        <button className="bg-[#CD0A0A] w-full mx-6 py-3 text-white max-sm:block hidden">
+        <button className="bg-[#cd0a0ae9] w-full mx-6 py-3 text-white max-sm:block hidden hover:bg-[#CD0A0A] focus:bg-[#CD0A0A]">
           Donate
         </button>
       </div>
-      <button className=" max-sm:hidden block bg-[#CD0A0A] py-2 px-5 text-white font-medium rounded-[60px] text-xl">
+      <button className=" max-sm:hidden block bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] py-2 px-5 text-white font-medium rounded-[60px] text-xl">
         Donate
       </button>
     </header>
