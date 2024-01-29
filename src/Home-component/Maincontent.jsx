@@ -6,7 +6,9 @@ import Image3 from "../assets/image3.webp";
 import Image4 from "../assets/image4.webp";
 import Image5 from "../assets/image5.webp";
 import Image6 from "../assets/image6.webp";
+import { useNavigate } from "react-router-dom";
 export default function Maincontent() {
+    const navigate = useNavigate();
   return (
     <main className=" max-sm:pt-24 font-Nunito">
       <section className="md:px-10 px-5 max-sm:px-2">
@@ -41,7 +43,13 @@ export default function Maincontent() {
             critical areas of development in Edo state; all of these under 3
             focus areas: Healthcare, Education and Overall Standard of Living.
           </p>
-          <button className=" block ml-auto w-28 border-[1px] rounded-[60px] py-2 border-[#CD0A0A] text-black font-semibold hover:bg-[#CD0A0A] hover:text-white focus:bg-[#CD0A0A] focus:text-black my-2">
+          <button
+            onClick={() => {
+              navigate("/about");
+              window.scrollTo(0, 0);
+            }}
+            className=" block ml-auto w-28 border-[1px] rounded-[60px] py-2 border-[#CD0A0A] text-black font-semibold hover:bg-[#CD0A0A] hover:text-white focus:bg-[#CD0A0A] focus:text-black my-2"
+          >
             See more
           </button>
         </div>
@@ -65,15 +73,27 @@ export default function Maincontent() {
             Edo Vision Medical Outreach Project December 2023
           </p>
           <div className=" absolute bottom-3 right-4 flex gap-4 items-center md:bottom-10">
-            <button className=" bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base">
+            <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base">
               Donate now
             </button>
-            <p className=" text-white font-semibold hover:underline focus:underline cursor-pointer">
+            <p
+              onClick={() => {
+                navigate("/our-projects");
+                window.scrollTo(0, 0);
+              }}
+              className=" text-white font-semibold hover:underline focus:underline cursor-pointer"
+            >
               See More
             </p>
           </div>
         </div>
-        <button className=" block ml-auto w-36 border-[1px] rounded-[60px] py-2 border-[#CD0A0A] text-black font-semibold hover:bg-[#CD0A0A] hover:text-white focus:bg-[#CD0A0A] focus:text-black my-2">
+        <button
+          onClick={() => {
+            navigate("/our-projects");
+            window.scrollTo(0, 0);
+          }}
+          className=" block ml-auto w-36 border-[1px] rounded-[60px] py-2 border-[#CD0A0A] text-black font-semibold hover:bg-[#CD0A0A] hover:text-white focus:bg-[#CD0A0A] focus:text-black my-2"
+        >
           See all projects
         </button>
         <h2 className="max-sm:text-2xl font-semibold max-md:text-3xl text-4xl my-5 text-center">

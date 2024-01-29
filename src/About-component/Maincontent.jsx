@@ -97,7 +97,9 @@ export default function Maincontent() {
           <h2 className="max-sm:text-xl text-2xl font-semibold text-black">
             and 20 others
           </h2>
-          <button className=" bg-[#CD0A0A] text-white py-2 px-5 rounded-[60px] text-xl">Join Us</button>
+          <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] text-white py-2 px-5 rounded-[60px] text-xl">
+            Join Us
+          </button>
         </div>
       </section>
     </main>

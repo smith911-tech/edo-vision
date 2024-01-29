@@ -42,9 +42,16 @@ export default function Header() {
         >
           About
         </Link>
-        <p className=" font-medium cursor-pointer text-[#000000ba]">
+        <Link
+          to="/our-projects"
+          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 ${
+            location === "/our-projects"
+              ? "border-[#CD0A0A]"
+              : "border-transparent"
+          }`}
+        >
           Our Projects
-        </p>
+        </Link>
         <p className=" font-medium cursor-pointer text-[#000000ba]">Join Us</p>
         <p className=" font-medium cursor-pointer text-[#000000ba]">
           Contact Us

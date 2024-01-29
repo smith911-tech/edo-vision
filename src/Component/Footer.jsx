@@ -11,10 +11,20 @@ export default function Footer(){
           className=" max-sm:w-20 w-24 block mx-auto"
         />
         <div className=" flex flex-wrap justify-center gap-4 text-[white] font-medium text-base my-4">
-          <Link to="/about" className="cursor-pointer hover:underline">
+          <Link
+            to="/about"
+            onClick={() => window.scrollTo(0, 0)}
+            className="cursor-pointer hover:underline"
+          >
             About us
           </Link>
-          <p className="cursor-pointer">Our Projects</p>
+          <Link
+            to="/our-projects"
+            onClick={() => window.scrollTo(0, 0)}
+            className="cursor-pointer hover:underline"
+          >
+            Our Projects
+          </Link>
           <p className="cursor-pointer">Join Us</p>
           <p className="cursor-pointer">Contact Us</p>
           <p className="cursor-pointer">Donate</p>
