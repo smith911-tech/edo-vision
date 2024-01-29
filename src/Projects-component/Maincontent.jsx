@@ -50,7 +50,7 @@ export default function Maincontent() {
             </button>
             <p
               onClick={() => {
-                navigate("/our-projects");
+                navigate("/medical-outreach-details");
                 window.scrollTo(0, 0);
               }}
               className=" text-white font-semibold hover:underline focus:underline cursor-pointer"

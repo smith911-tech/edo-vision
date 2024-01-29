@@ -27,7 +27,13 @@ export default function Maincontent() {
           alt="Hero image"
           className=" mt-9 h-[300px] w-full object-cover object-top md:h-[500px] brightness-50"
         />
-        <button className=" absolute bottom-5 left-1/2 right-1/2 -translate-x-1/2 w-28 border-[3px] rounded-[60px] py-2 border-white text-white font-semibold hover:bg-white hover:text-black focus:bg-white focus:text-black">
+        <button
+          onClick={() => {
+            navigate("/join-us");
+            window.scrollTo(0, 0);
+          }}
+          className="absolute bottom-5 left-1/2 right-1/2 -translate-x-1/2 w-28 border-[3px] rounded-[60px] py-2 border-white text-white font-semibold hover:bg-white hover:text-black focus:bg-white focus:text-black"
+        >
           Join Us
         </button>
       </section>
@@ -78,7 +84,7 @@ export default function Maincontent() {
             </button>
             <p
               onClick={() => {
-                navigate("/our-projects");
+                navigate("/medical-outreach-details");
                 window.scrollTo(0, 0);
               }}
               className=" text-white font-semibold hover:underline focus:underline cursor-pointer"

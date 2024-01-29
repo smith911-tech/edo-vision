@@ -1,6 +1,8 @@
 import AboutHeroImage from "../assets/AboutHeroImage.webp";
 import { FaUser } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 export default function Maincontent() {
+    const navigate = useNavigate();
   return (
     <main className=" max-sm:pt-24 font-Nunito mt-2">
       <div className="flex max-md:justify-be max-md:flex-col max-md:gap-4 items-center justify-between max-md:px-2 gap-[64px]">
@@ -97,7 +99,13 @@ export default function Maincontent() {
           <h2 className="max-sm:text-xl text-2xl font-semibold text-black">
             and 20 others
           </h2>
-          <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] text-white py-2 px-5 rounded-[60px] text-xl">
+          <button
+            onClick={() => {
+              navigate("/join-us");
+              window.scrollTo(0, 0);
+            }}
+            className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] text-white py-2 px-5 rounded-[60px] text-xl"
+          >
             Join Us
           </button>
         </div>

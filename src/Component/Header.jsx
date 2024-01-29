@@ -52,7 +52,16 @@ export default function Header() {
         >
           Our Projects
         </Link>
-        <p className=" font-medium cursor-pointer text-[#000000ba]">Join Us</p>
+        <Link
+          to="/join-us"
+          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 hover:border-[#CD0A0A] duration-150 ${
+            location === "/join-us"
+              ? "border-[#CD0A0A]"
+              : "border-transparent"
+          }`}
+        >
+          Join Us
+        </Link>
         <p className=" font-medium cursor-pointer text-[#000000ba]">
           Contact Us
         </p>

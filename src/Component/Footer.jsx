@@ -25,7 +25,13 @@ export default function Footer(){
           >
             Our Projects
           </Link>
-          <p className="cursor-pointer">Join Us</p>
+          <Link
+            to="/join-us"
+            onClick={() => window.scrollTo(0, 0)}
+            className="cursor-pointer hover:underline"
+          >
+            Join Us
+          </Link>
           <p className="cursor-pointer">Contact Us</p>
           <p className="cursor-pointer">Donate</p>
         </div>
