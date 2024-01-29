@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import HeroImage from "../assets/Join-us-heroimage.webp";
-import { useNavigate } from "react-router-dom";
 export default function Maincontent() {
-    const navigate = useNavigate();
   return (
     <main className=" max-sm:pt-24 font-Nunito">
       <section className="md:px-10 px-5 max-sm:px-2">
@@ -42,9 +40,9 @@ export default function Maincontent() {
         </p>
         <a
           href="https://chat.whatsapp.com/CsN0zJ1A5Aj2aAE2l8BR3t" target="blank"
-          className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] text-white py-2 px-5 rounded-[60px] text-xl block mx-auto w-28 text-center"
+          className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] text-white py-2 px-5 rounded-[60px] text-xl block mx-auto w-32 text-center"
         >
-          Join Us
+          Join now
         </a>
       </section>
     </main>
