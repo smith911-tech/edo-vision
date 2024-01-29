@@ -6,7 +6,6 @@ import Image3 from "../assets/image3.webp";
 import Image4 from "../assets/image4.webp";
 import Image5 from "../assets/image5.webp";
 import Image6 from "../assets/image6.webp";
-import Footer from "../Component/Footer";
 export default function Maincontent() {
   return (
     <main className=" max-sm:pt-24 font-Nunito">
@@ -88,17 +87,17 @@ export default function Maincontent() {
               className=" h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              An Edo vision medical volunteer giving out medical supplies
+              Edo vision volunteers at Uselu market
             </p>
           </div>
-          <div className="h-[530px] max-lg:h-[360px]">
+          <div className="h-[550px] max-lg:h-[360px]">
             <img
               src={Image4}
               alt="img"
               className="max-lg:h-[320px] h-[430px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Volunteers planting trees for the ‘Save ou planet’ campaign
+              Volunteer with trader after health awareness talk
             </p>
           </div>
           <div className="h-[450px] max-lg:h-[360px]">
@@ -108,7 +107,7 @@ export default function Maincontent() {
               className="h-[430px] object-cover rounded-[60px] w-full object-top max-lg:h-[320px]"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              An Edo vision medical volunteer giving out medical supplies
+              Volunteer doing a B.P check for a Trader
             </p>
           </div>
           <div className="h-[450px] max-lg:h-[360px]">
@@ -118,7 +117,7 @@ export default function Maincontent() {
               className="h-[420px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              A student taking pottery classes
+              Volunteers doing health checks at Uselu Market
             </p>
           </div>
           <div className="h-[360px] ">
@@ -128,24 +127,22 @@ export default function Maincontent() {
               className="object-cover h-[320px] rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Volunteers helping out in envionmental sanitation exercise
+              Volunteer doing a B.P check for a trader
             </p>
           </div>
 
-          <div className="h-[530px] max-lg:h-[360px]">
+          <div className="h-[550px] max-lg:h-[360px]">
             <img
               src={Image6}
               alt="img"
               className="h-[430px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              An Edo vision volunteer giving out lunch packages to local
-              students
+              Volunteers doing health checks at Uselu Market
             </p>
           </div>
         </section>
       </section>
-      <Footer />
     </main>
   );
 }

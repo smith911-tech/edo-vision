@@ -5,6 +5,7 @@ import { FaXmark } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
+  const location = window.location.pathname;
   useEffect(() => {
     document.body.style.overflow = showMenu ? "hidden" : "auto";
     return () => {
@@ -12,7 +13,7 @@ export default function Header() {
     };
   }, [showMenu]);
   return (
-    <header className="flex py-2 max-sm:px-2 items-center justify-between bg-white px-5 max-sm:fixed w-full md:px-10 z-50">
+    <header className="flex max-sm:px-2 items-center justify-between bg-white px-5 max-sm:fixed w-full md:px-10 z-50">
       <Link to="/">
         <img
           src={Logo}
@@ -33,7 +34,12 @@ export default function Header() {
           onClick={() => setShowMenu(false)}
           className=" absolute top-6 right-4 text-3xl text-[#0000007c] max-sm:block hidden cursor-pointer"
         />
-        <p className=" font-medium cursor-pointer text-[#000000ba]">About</p>
+        <Link
+          to="/about"
+          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 ${location === "/about" ? "border-[#CD0A0A]" : "border-transparent"}`}
+        >
+          About
+        </Link>
         <p className=" font-medium cursor-pointer text-[#000000ba]">
           Our Projects
         </p>
