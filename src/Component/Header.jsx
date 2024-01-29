@@ -36,7 +36,7 @@ export default function Header() {
         />
         <Link
           to="/about"
-          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 ${
+          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 hover:border-[#CD0A0A] duration-150 ${
             location === "/about" ? "border-[#CD0A0A]" : "border-transparent"
           }`}
         >
@@ -44,7 +44,7 @@ export default function Header() {
         </Link>
         <Link
           to="/our-projects"
-          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 ${
+          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 hover:border-[#CD0A0A] duration-150 ${
             location === "/our-projects"
               ? "border-[#CD0A0A]"
               : "border-transparent"
