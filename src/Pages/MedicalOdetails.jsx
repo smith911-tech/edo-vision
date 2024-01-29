@@ -29,15 +29,6 @@ export default function MedicalOdetails() {
               <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base">
                 Donate now
               </button>
-              <p
-                onClick={() => {
-                  navigate("/our-projects");
-                  window.scrollTo(0, 0);
-                }}
-                className=" text-white font-semibold hover:underline focus:underline cursor-pointer"
-              >
-                See More
-              </p>
             </div>
           </div>
           <p className=" font-normal my-6 md:max-w-[760px] md:block md:mx-auto ">

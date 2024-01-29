@@ -6,6 +6,7 @@ import MedicalOdetails from './Pages/MedicalOdetails'
 import JoinUs from './Pages/Join-us'
 function App() {
   ///contact-us
+  ///code-of-conduct
   return (
     <BrowserRouter>
       <Routes>
