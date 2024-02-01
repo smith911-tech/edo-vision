@@ -32,7 +32,14 @@ export default function Footer(){
           >
             Join Us
           </Link>
-          <p className="cursor-pointer">Contact Us</p>
+          <Link
+            Link
+            to="/contact-us"
+            onClick={() => window.scrollTo(0, 0)}
+            className="cursor-pointer hover:underline"
+          >
+            Contact Us
+          </Link>
           <p className="cursor-pointer">Donate</p>
         </div>
         <div className=" text-base flex justify-center items-center max-sm:gap-3  my-8  w-full gap-9">

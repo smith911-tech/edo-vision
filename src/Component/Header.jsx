@@ -12,8 +12,11 @@ export default function Header() {
       document.body.style.overflow = "auto";
     };
   }, [showMenu]);
+  const pathname = window.location.pathname;
   return (
-    <header className="flex max-sm:px-2 items-center justify-between bg-white px-5 max-sm:fixed w-full md:px-10 z-50 shadow top-0">
+    <header
+      className={`flex max-sm:px-2 items-center justify-between fixed  px-5 max-sm:fixed w-full md:px-10 z-50 shadow top-0 ${pathname === "/contact-us" ? " max-lg:bg-white bg-transparent" : "bg-white"}`}
+    >
       <Link to="/">
         <img
           src={Logo}
@@ -55,16 +58,21 @@ export default function Header() {
         <Link
           to="/join-us"
           className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 hover:border-[#CD0A0A] duration-150 ${
-            location === "/join-us"
-              ? "border-[#CD0A0A]"
-              : "border-transparent"
+            location === "/join-us" ? "border-[#CD0A0A]" : "border-transparent"
           }`}
         >
           Join Us
         </Link>
-        <p className=" font-medium cursor-pointer text-[#000000ba]">
+        <Link
+          to="/contact-us"
+          className={` font-medium cursor-pointer text-[#000000ba] border-b-2 mb-2 hover:border-[#CD0A0A] duration-150 ${
+            location === "/contact-us"
+              ? "border-[#CD0A0A]"
+              : "border-transparent"
+          }`}
+        >
           Contact Us
-        </p>
+        </Link>
         <button className="bg-[#cd0a0ae9] w-full mx-6 py-3 text-white max-sm:block hidden hover:bg-[#CD0A0A] focus:bg-[#CD0A0A]">
           Donate
         </button>

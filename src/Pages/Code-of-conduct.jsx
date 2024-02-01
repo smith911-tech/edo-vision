@@ -5,7 +5,7 @@ export default function CodeOfConduct() {
   return (
     <main>
       <Header />
-      <main className=" max-sm:pt-24 font-Nunito">
+      <main className=" pt-24 font-Nunito">
         <section className="md:px-10 px-5 max-sm:px-2">
           <h1 className="text-center mt-2 max-sm:text-2xl font-semibold max-md:text-3xl text-4xl">
             Code Of Conduct For Edo Vision Volunteers

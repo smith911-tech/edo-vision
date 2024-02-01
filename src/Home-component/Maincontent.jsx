@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 export default function Maincontent() {
     const navigate = useNavigate();
   return (
-    <main className=" max-sm:pt-24 font-Nunito">
+    <main className=" pt-24 font-Nunito">
       <section className="md:px-10 px-5 max-sm:px-2">
         <h1 className="text-center mt-2 max-sm:text-2xl font-semibold max-md:text-3xl text-4xl">
           Empowering Edo's Future
@@ -32,7 +32,7 @@ export default function Maincontent() {
             navigate("/join-us");
             window.scrollTo(0, 0);
           }}
-          className="absolute bottom-5 left-1/2 right-1/2 -translate-x-1/2 w-28 border-[3px] rounded-[60px] py-2 border-white text-white font-semibold hover:bg-white hover:text-black focus:bg-white focus:text-black"
+          className="absolute bottom-5 left-1/2 right-1/2 -translate-x-1/2 w-28 border-[3px] rounded-[60px] py-2 border-[#ffffffc6] text-[#ffffffc6] font-semibold hover:bg-[white] hover:text-black focus:bg-[white] focus:text-black"
         >
           Join Us
         </button>

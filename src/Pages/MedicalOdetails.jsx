@@ -7,7 +7,7 @@ export default function MedicalOdetails() {
   return (
     <main>
       <Header />
-      <main className=" max-sm:pt-24 font-Nunito mt-2">
+      <main className=" pt-24 font-Nunito mt-2">
         <section className="md:px-10 px-5 max-sm:px-2 ">
           <div className=" mb-5 relative">
             <img

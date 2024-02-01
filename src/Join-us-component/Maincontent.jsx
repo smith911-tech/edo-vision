@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import HeroImage from "../assets/Join-us-heroimage.webp";
 export default function Maincontent() {
   return (
-    <main className=" max-sm:pt-24 font-Nunito">
+    <main className=" pt-24 font-Nunito">
       <section className="md:px-10 px-5 max-sm:px-2">
         <h1 className="text-center mt-2 max-sm:text-2xl font-semibold max-md:text-3xl text-4xl">
           Join The Edo Vision Movement
@@ -25,6 +25,7 @@ export default function Maincontent() {
           and agreeing to adhere to our{" "}
           <Link
             to="/code-of-conduct"
+            onClick={() => window.scrollTo(0, 0)}
             className=" underline text-[blue] text-nowrap"
           >
             Code of Conduct

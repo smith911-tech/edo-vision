@@ -13,7 +13,7 @@ import Image6 from "../assets/image6.webp";
 export default function Maincontent() {
     const navigate = useNavigate();
   return (
-    <main className=" max-sm:pt-24 font-Nunito mt-2">
+    <main className=" pt-24 font-Nunito mt-2">
       <div className="flex max-md:justify-be max-md:flex-col max-md:gap-4 items-center justify-between max-md:px-2 gap-[64px] mb-5">
         <h1 className=" max-md:text-3xl font-semibold pl-10 text-4xl md:w-96">
           Our Projects

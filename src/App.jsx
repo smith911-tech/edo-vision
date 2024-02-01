@@ -5,8 +5,8 @@ import Projects from './Pages/Projects'
 import MedicalOdetails from './Pages/MedicalOdetails'
 import JoinUs from './Pages/Join-us'
 import CodeOfConduct from './Pages/Code-of-conduct'
+import Contactus from './Pages/ContactUs'
 function App() {
-  ///contact-us
   return (
     <BrowserRouter>
       <Routes>
@@ -16,6 +16,7 @@ function App() {
         <Route path="/medical-outreach-details" element={<MedicalOdetails />} />
         <Route path="/join-us" element={<JoinUs />} />
         <Route path="code-of-conduct" element={<CodeOfConduct />}/>
+        <Route path="/contact-us" element={<Contactus />}/>
       </Routes>
     </BrowserRouter>
   );
