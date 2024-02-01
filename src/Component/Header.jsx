@@ -29,7 +29,7 @@ export default function Header() {
         onClick={() => setShowMenu(true)}
       />
       <div
-        className={`max-sm:fixed bg-white max-sm:w-full flex max-sm:justify-center max-sm:flex-col max-sm:items-center max-sm:h-[100svh] max-sm:top-0 font-Nunito max-sm:text-2xl gap-10  relative md:text-xl  ${
+        className={`max-sm:fixed max-sm:bg-white max-sm:w-full flex max-sm:justify-center max-sm:flex-col max-sm:items-center max-sm:h-[100svh] max-sm:top-0 font-Nunito max-sm:text-2xl gap-10  relative md:text-xl  ${
           showMenu ? "max-sm:left-0" : "max-sm:-left-full"
         }`}
       >
