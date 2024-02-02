@@ -35,7 +35,7 @@ export default function Maincontent() {
         (error) => {
           console.log(error.text);
           setIsLoading(false);
-            PopUp.error("Failed to send email. Please try again later.");
+            PopUp.error("Failed to send. Please try again later.");
         }
       )
       .finally(() => {
