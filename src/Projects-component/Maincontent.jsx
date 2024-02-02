@@ -1,9 +1,6 @@
 import AboutHeroImage from "../assets/ProjectsHeroImage.webp";
 import UnderHero from "../assets/UnderHero.webp";
 import { useNavigate } from "react-router-dom";
-import Completed1 from "../assets/CompletedP1.webp";
-import Completed2 from "../assets/CompletedP2.webp";
-import Completed3 from "../assets/CompletedP3.webp";
 import Image1 from "../assets/image1.webp";
 import Image2 from "../assets/image2.webp";
 import Image3 from "../assets/image3.webp";
@@ -26,7 +23,7 @@ export default function Maincontent() {
       </div>
       <section className="md:px-10 px-5 max-sm:px-2 ">
         <h2 className="max-sm:text-2xl font-semibold max-md:text-3xl text-4xl mb-4">
-          Current Project
+          Completed Projects
         </h2>
         <div className=" mb-5 relative">
           <img
@@ -45,7 +42,7 @@ export default function Maincontent() {
             Edo Vision Medical Outreach Project December 2023
           </p>
           <div className=" absolute bottom-3 right-4 flex gap-4 items-center md:bottom-10">
-            <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base">
+            <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base cursor-not-allowed">
               Donate now
             </button>
             <p
@@ -59,41 +56,6 @@ export default function Maincontent() {
             </p>
           </div>
         </div>
-        <h2 className="max-sm:text-2xl font-semibold max-md:text-3xl text-4xl mb-4">
-          Completed Projects
-        </h2>
-        <section className="flex max-md:flex-col gap-6 justify-center flex-wrap flex-row">
-          <div className="  max-md:w-full w-[31%] max-lg:w-[40%]">
-            <img
-              src={Completed1}
-              alt="image"
-              className="w-full rounded-lg object-cover md:h-80"
-            />
-            <p className="font-medium text-xl max-sm:text-lg">
-              Edo Literacy Outreach Project March 2024
-            </p>
-          </div>
-          <div className="  max-md:w-full w-[31%] max-lg:w-[40%]">
-            <img
-              src={Completed2}
-              alt="image"
-              className="w-full rounded-lg object-cover md:h-80"
-            />
-            <p className="font-medium text-xl max-sm:text-lg">
-              Edo Mental Health Awareness Outreach Project January 2024
-            </p>
-          </div>
-          <div className="  max-md:w-full w-[31%] max-lg:w-[40%]">
-            <img
-              src={Completed3}
-              alt="image"
-              className="w-full rounded-lg object-cover md:h-80"
-            />
-            <p className="font-medium text-xl max-sm:text-lg">
-              Edo Disaster Resilience Outreach Project Febuary 2024
-            </p>
-          </div>
-        </section>
         <h2 className="max-sm:text-2xl font-semibold max-md:text-3xl text-4xl mb-5 text-center mt-12">
           Recent Photo Reports
         </h2>
@@ -105,7 +67,7 @@ export default function Maincontent() {
               className=" h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Edo vision volunteers at Uselu market
+              Edo vision volunteers at Santana market
             </p>
           </div>
           <div className="h-[550px] max-lg:h-[360px]">
@@ -135,7 +97,7 @@ export default function Maincontent() {
               className="h-[420px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Volunteers doing health checks at Uselu Market
+              Volunteers doing health checks at Santana Market
             </p>
           </div>
           <div className="h-[360px] ">
@@ -156,7 +118,7 @@ export default function Maincontent() {
               className="h-[430px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Volunteers doing health checks at Uselu Market
+              Volunteers doing health checks at Santana Market
             </p>
           </div>
         </section>

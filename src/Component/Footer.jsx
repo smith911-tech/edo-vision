@@ -40,7 +40,7 @@ export default function Footer(){
           >
             Contact Us
           </Link>
-          <p className="cursor-pointer">Donate</p>
+          <p className=" cursor-not-allowed">Donate</p>
         </div>
         <div className=" text-base flex justify-center items-center max-sm:gap-3  my-8  w-full gap-9">
           <p className=" text-white font-extralight">Privacy policy</p>

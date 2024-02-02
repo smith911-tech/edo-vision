@@ -79,7 +79,7 @@ export default function Maincontent() {
             Edo Vision Medical Outreach Project December 2023
           </p>
           <div className=" absolute bottom-3 right-4 flex gap-4 items-center md:bottom-10">
-            <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base">
+            <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base cursor-not-allowed">
               Donate now
             </button>
             <p
@@ -113,7 +113,7 @@ export default function Maincontent() {
               className=" h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Edo vision volunteers at Uselu market
+              Edo vision volunteers at Santana market
             </p>
           </div>
           <div className="h-[550px] max-lg:h-[360px]">
@@ -143,7 +143,7 @@ export default function Maincontent() {
               className="h-[420px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Volunteers doing health checks at Uselu Market
+              Volunteers doing health checks at Santana Market
             </p>
           </div>
           <div className="h-[360px] ">
@@ -164,7 +164,7 @@ export default function Maincontent() {
               className="h-[430px] max-lg:h-[320px] object-cover rounded-[60px] w-full object-top"
             />
             <p className=" text-[#000000bb] text-center font-normal text-sm">
-              Volunteers doing health checks at Uselu Market
+              Volunteers doing health checks at Santana Market
             </p>
           </div>
         </section>

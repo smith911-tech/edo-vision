@@ -26,14 +26,14 @@ export default function MedicalOdetails() {
               Edo Vision Medical Outreach Project December 2023
             </p>
             <div className=" absolute bottom-3 right-4 flex gap-4 items-center md:bottom-10">
-              <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base">
+              <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base cursor-not-allowed">
                 Donate now
               </button>
             </div>
           </div>
           <p className=" font-normal my-6 md:max-w-[760px] md:block md:mx-auto ">
             On December 2nd, 2023, the Edo Vision volunteers made a significant
-            impact in Uselu Market, Edo State, Nigeria. Their mission: to
+            impact in Santana Market, Edo State, Nigeria. Their mission: to
             promote health awareness and provide essential services directly to
             the community. Through various initiatives, the volunteers empowered
             individuals to take charge of their well-being. Informative flyers
