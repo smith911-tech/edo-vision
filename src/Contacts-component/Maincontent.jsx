@@ -2,7 +2,7 @@ import bgimage from "../assets/Contactbg.webp";
 export default function Maincontent() {
   return (  
     <main className="font-Nunito flex justify-center min-h-[100svh]">
-      <section className=" w-1/2  pt-24 md:px-10 px-5 max-sm:px-2 max-lg:w-[500px] max-sm:w-full">
+      <section className=" w-1/2  pt-24 md:px-10 px-5 max-sm:px-2 max-lg:w-[500px] max-sm:w-full max-lg:pb-20">
         <h2 className=" text-3xl font-semibold mt-4">Contact Us</h2>
         <p className=" text-base font-light mt-1">
           Got questions or want to support our cause? Reach out! Your message
