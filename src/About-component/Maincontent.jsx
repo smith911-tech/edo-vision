@@ -109,7 +109,7 @@ export default function Maincontent() {
             Join Us
           </button>
         </div> */}
-        <h2 className=" text-3xl max-sm:text-2xl my-7 text-center">Comming soon.....</h2>
+        <h2 className=" text-3xl max-sm:text-2xl my-7 text-center">Coming soon.....</h2>
       </section>
     </main>
   );
