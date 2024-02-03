@@ -29,7 +29,7 @@ export default function Maincontent() {
         <h2 className=" my-6 text-4xl font-semibold max-md:text-3xl">
           The Team
         </h2>
-        <section className=" flex justify-center flex-wrap gap-5">
+        {/* <section className=" flex justify-center flex-wrap gap-5">
           <div className=" max-md:w-[80%] max-sm:w-[85%] max-lg:w-[30%] w-[350px]">
             <div className="bg-[#515151] py-8 px-1 flex justify-center">
               <FaUser className="text-9xl text-[white]" />
@@ -108,7 +108,8 @@ export default function Maincontent() {
           >
             Join Us
           </button>
-        </div>
+        </div> */}
+        <h2 className=" text-3xl max-sm:text-2xl my-7 text-center">Comming soon.....</h2>
       </section>
     </main>
   );
