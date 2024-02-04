@@ -13,7 +13,7 @@ export default function Maincontent() {
     <main className=" pt-24 font-Nunito">
       <section className="md:px-10 px-5 max-sm:px-2">
         <h1 className="text-center mt-2 max-sm:text-2xl font-semibold max-md:text-3xl text-4xl">
-          Empowering Edo's Future
+          Empowering Edolites
         </h1>
         <p className="text-center font-normal mt-4 md:max-w-[760px] md:block md:mx-auto md:mb-0">
           Join us in advocating for sustainable initiatives, amplifying voices,
