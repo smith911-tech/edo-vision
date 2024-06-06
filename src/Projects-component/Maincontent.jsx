@@ -7,8 +7,14 @@ import Image3 from "../assets/image3.webp";
 import Image4 from "../assets/image4.webp";
 import Image5 from "../assets/image5.webp";
 import Image6 from "../assets/image6.webp";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Maincontent() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <main className=" pt-24 font-Nunito mt-2">
       <div className="flex max-md:justify-be max-md:flex-col max-md:gap-4 items-center justify-between max-md:px-2 gap-[64px] mb-5">
@@ -41,7 +47,10 @@ export default function Maincontent() {
           <p className="absolute left-2 max-sm:text-xl max-lg:text-2xl text-3xl top-[50%] text-white">
             Edo Vision Medical Outreach Project December 2023
           </p>
-          <div className=" absolute bottom-3 right-4 flex gap-4 items-center md:bottom-10">
+          <div
+            data-aos="fade-up"
+            className=" absolute bottom-3 right-4 flex gap-4 items-center md:bottom-10"
+          >
             <button className="bg-[#cd0a0ae9] hover:bg-[#CD0A0A] focus:bg-[#CD0A0A] rounded-3xl px-4 py-2 text-white text-base cursor-not-allowed">
               Donate now
             </button>
@@ -60,7 +69,7 @@ export default function Maincontent() {
           Recent Photo Reports
         </h2>
         <section className="max-lg:w-full w-[85%] pb-6 mx-auto  gap-4 max-lg:columns-1 columns-3 space-y-4 max-lg:gap-2 mb-10">
-          <div className="h-[360px]">
+          <div data-aos="fade-up" className="h-[360px]">
             <img
               src={Image1}
               alt="img"
@@ -70,7 +79,7 @@ export default function Maincontent() {
               Edo vision volunteers at Santana market
             </p>
           </div>
-          <div className="h-[550px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[550px] max-lg:h-[360px]">
             <img
               src={Image4}
               alt="img"
@@ -80,7 +89,7 @@ export default function Maincontent() {
               Volunteer with trader after health awareness talk
             </p>
           </div>
-          <div className="h-[450px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[450px] max-lg:h-[360px]">
             <img
               src={Image2}
               alt="img"
@@ -90,7 +99,7 @@ export default function Maincontent() {
               Volunteer doing a B.P check for a Trader
             </p>
           </div>
-          <div className="h-[450px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[450px] max-lg:h-[360px]">
             <img
               src={Image5}
               alt="img"
@@ -100,7 +109,7 @@ export default function Maincontent() {
               Volunteers doing health checks at Santana Market
             </p>
           </div>
-          <div className="h-[360px] ">
+          <div v className="h-[360px] ">
             <img
               src={Image3}
               alt="img"
@@ -111,7 +120,7 @@ export default function Maincontent() {
             </p>
           </div>
 
-          <div className="h-[550px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[550px] max-lg:h-[360px]">
             <img
               src={Image6}
               alt="img"

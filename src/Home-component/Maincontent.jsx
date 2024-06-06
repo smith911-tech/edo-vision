@@ -7,8 +7,14 @@ import Image4 from "../assets/image4.webp";
 import Image5 from "../assets/image5.webp";
 import Image6 from "../assets/image6.webp";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Maincontent() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <main className=" pt-24 font-Nunito">
       <section className="md:px-10 px-5 max-sm:px-2">
@@ -106,7 +112,7 @@ export default function Maincontent() {
           Recent Photo Reports
         </h2>
         <section className="max-lg:w-full w-[85%] pb-6 mx-auto  gap-4 max-lg:columns-1 columns-3 space-y-4 max-lg:gap-2 ">
-          <div className="h-[360px]">
+          <div data-aos="fade-up" className="h-[360px]">
             <img
               src={Image1}
               alt="img"
@@ -116,7 +122,7 @@ export default function Maincontent() {
               Edo vision volunteers at Santana market
             </p>
           </div>
-          <div className="h-[550px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[550px] max-lg:h-[360px]">
             <img
               src={Image4}
               alt="img"
@@ -126,7 +132,7 @@ export default function Maincontent() {
               Volunteer with trader after health awareness talk
             </p>
           </div>
-          <div className="h-[450px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[450px] max-lg:h-[360px]">
             <img
               src={Image2}
               alt="img"
@@ -136,7 +142,7 @@ export default function Maincontent() {
               Volunteer doing a B.P check for a Trader
             </p>
           </div>
-          <div className="h-[450px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[450px] max-lg:h-[360px]">
             <img
               src={Image5}
               alt="img"
@@ -146,7 +152,7 @@ export default function Maincontent() {
               Volunteers doing health checks at Santana Market
             </p>
           </div>
-          <div className="h-[360px] ">
+          <div data-aos="fade-up" className="h-[360px] ">
             <img
               src={Image3}
               alt="img"
@@ -157,7 +163,7 @@ export default function Maincontent() {
             </p>
           </div>
 
-          <div className="h-[550px] max-lg:h-[360px]">
+          <div data-aos="fade-up" className="h-[550px] max-lg:h-[360px]">
             <img
               src={Image6}
               alt="img"
